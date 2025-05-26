@@ -1,0 +1,16 @@
+¿Cuál es la diferencia entre declarar una variable con var, let y const? ¿En qué situaciones usarías cada una?
+   el var ya no se utiliza pero se utilizaba para declarar variables el const es para declarar variables que no van a cambiar 
+ y el let se utiliza para declarar variables que se van a poder modificar 
+
+¿Qué diferencias hay entre for, forEach, map y filter? Explicá brevemente el uso de cada uno.
+el map recorre y te permite modificar cuando y crea una nuevo arreglo  con los valores modificados
+el filter selecciona los valores segun a la condicion que le colocas
+y el forEach hace un poco de las dos es como una combinacion  solo que no crea un nuevo arreglo solo lo retorna   
+
+¿Cómo se accede a una propiedad de un objeto? Mostrá un ejemplo.
+
+let jaja= {
+    nombre: "jaja",
+    nc: 3
+};
+console.log(jaja[nc]);
